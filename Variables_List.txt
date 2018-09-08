@@ -1,0 +1,18 @@
+## The state parameters of a vehicle
+%  state.Id -> 1, 2, 3, we woud like to give an index of the cars 
+%  state.Ego - > true / false whether it is the Ego car or not
+%  state.x -> x coordinate
+%  state.y -> y coordinate
+%  state.v -> the velocity "v"
+%  state.theta -> the orientation theta
+%  state.omega -> the control of the angular velocity "omega"
+%  state.alpha -> the accleration
+%  state.lane_change_duration ->time duration of lane change 5sec
+%  state.lane_change_timer -> record how long the vehilce has...
+%                             to change lane
+%  state.lange_change_direction -> -1 to the right lane, 
+%				   +1 to the left lane,
+%                                  0 stay in the lane
+%  state.Poisson_Seed -> the seed/ parameter lambda,
+%			randoml generating -1, 0, +1 
+% 			for lane change.
